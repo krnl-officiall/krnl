@@ -1,0 +1,200 @@
+Uri: https://krnl.ca/
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\index.htm
+Content Type: text/html
+
+Uri: https://krnl.ca/css/css-style.css
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\css-style.css
+Content Type: text/css
+
+Uri: https://krnl.ca/css/mainpage.css
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\mainpage.css
+Content Type: text/css
+
+Uri: https://krnl.ca/css/Team-Boxed.css
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Team-Boxed.css
+Content Type: text/css
+
+Uri: https://krnl.ca/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js
+Content Type: application/javascript
+
+Uri: https://krnl.ca/fonts/images-white-header-lines.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-white-header-lines.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-arrow-dowwn-white.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-arrow-dowwn-white.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-arrow-dowwn-dark.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-arrow-dowwn-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-sprite-content-icons.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-sprite-content-icons.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-down-arrow.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-down-arrow.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-sprite-icons.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-sprite-icons.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/homepage-how-infatica-use-bg.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\homepage-how-infatica-use-bg.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-sprite-smal-icons.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-sprite-smal-icons.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/homepage-pricing-bg.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\homepage-pricing-bg.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-footer-bg-line.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-footer-bg-line.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-soc-sprite.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-soc-sprite.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-icon-message-color-prpl.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-icon-message-color-prpl.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-icon-quote.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-icon-quote.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/video-icon-play-purple.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\video-icon-play-purple.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/video-icon-play-green.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\video-icon-play-green.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-Line--green.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-Line--green.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-arrow-green-section.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-arrow-green-section.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/images-partners-icon-arrow.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\images-partners-icon-arrow.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/blog-LinesRightbg.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\blog-LinesRightbg.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/fonts/blog-Ln-lft.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\fonts\blog-Ln-lft.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/css/Metropolis-SemiBold.woff2
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-SemiBold.woff2
+Content Type: font/woff2
+
+Uri: https://krnl.ca/css/Metropolis-SemiBold.woff
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-SemiBold.woff
+Content Type: font/woff
+
+Uri: https://krnl.ca/css/Metropolis-SemiBold.ttf
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-SemiBold.ttf
+Content Type: font/ttf
+
+Uri: https://krnl.ca/css/Metropolis-Medium.woff2
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-Medium.woff2
+Content Type: font/woff2
+
+Uri: https://krnl.ca/css/Metropolis-Medium.woff
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-Medium.woff
+Content Type: font/woff
+
+Uri: https://krnl.ca/css/Metropolis-Medium.ttf
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-Medium.ttf
+Content Type: font/ttf
+
+Uri: https://krnl.ca/css/Metropolis-Bold.woff2
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-Bold.woff2
+Content Type: font/woff2
+
+Uri: https://krnl.ca/css/Metropolis-Bold.woff
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-Bold.woff
+Content Type: font/woff
+
+Uri: https://krnl.ca/css/Metropolis-Bold.ttf
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\Metropolis-Bold.ttf
+Content Type: font/ttf
+
+Uri: https://krnl.ca/css/arr.svg
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\arr.svg
+Content Type: image/svg+xml
+
+Uri: https://krnl.ca/css/KX0f3tMOOuvhTu1AAAAAElFTkSuQmCC.webp
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\css\KX0f3tMOOuvhTu1AAAAAElFTkSuQmCC.webp
+Content Type: image/webp
+
+Uri: https://krnl.ca/faq/
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\faq\index.htm
+Content Type: text/html
+
+Uri: https://krnl.ca/predocs/
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\index.htm
+Content Type: text/html
+
+Uri: https://krnl.ca/predocs/css/mainpage.css
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\mainpage.css
+Content Type: text/css
+
+Uri: https://krnl.ca/predocs/imgs/krnlmain.png
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\imgs\krnlmain.png
+Content Type: image/png
+
+Uri: https://krnl.ca/invite/
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\invite\index.htm
+Content Type: text/html
+
+Uri: https://krnl.ca/predocs/css/Metropolis-SemiBold.woff2
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-SemiBold.woff2
+Content Type: font/woff2
+
+Uri: https://krnl.ca/predocs/css/Metropolis-SemiBold.woff
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-SemiBold.woff
+Content Type: font/woff
+
+Uri: https://krnl.ca/predocs/css/Metropolis-SemiBold.ttf
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-SemiBold.ttf
+Content Type: font/ttf
+
+Uri: https://krnl.ca/predocs/css/Metropolis-Medium.woff2
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-Medium.woff2
+Content Type: font/woff2
+
+Uri: https://krnl.ca/predocs/css/Metropolis-Medium.woff
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-Medium.woff
+Content Type: font/woff
+
+Uri: https://krnl.ca/predocs/css/Metropolis-Medium.ttf
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-Medium.ttf
+Content Type: font/ttf
+
+Uri: https://krnl.ca/predocs/css/Metropolis-Bold.woff2
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-Bold.woff2
+Content Type: font/woff2
+
+Uri: https://krnl.ca/predocs/css/Metropolis-Bold.woff
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-Bold.woff
+Content Type: font/woff
+
+Uri: https://krnl.ca/predocs/css/Metropolis-Bold.ttf
+File Name: C:\Users\Administrator\Desktop\New folder\krnl.ca\predocs\css\Metropolis-Bold.ttf
+Content Type: font/ttf
+

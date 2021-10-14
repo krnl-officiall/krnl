@@ -1,0 +1,986 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+  <title>Infatica blog - learn how to use the Internet without any limits</title>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+  <style media="screen">
+@font-face {
+	 font-family: 'Metropolis-Bold';
+	 src: url('/blog/assets/fonts/Metropolis-Bold.eot?#iefix?v=5832569d99') format('embedded-opentype'),  url('/blog/assets/fonts/Metropolis-Bold.otf?v=5832569d99')  format('opentype'),
+	 url('/blog/assets/fonts/Metropolis-Bold.woff?v=5832569d99') format('woff'), url('/blog/assets/fonts/Metropolis-Bold.ttf?v=5832569d99')  format('truetype'), url('/blog/assets/fonts/Metropolis-Bold.svg#Metropolis-Bold?v=5832569d99') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+@font-face {
+	 font-family: 'Metropolis-Medium';
+	 src: url('/blog/assets/fonts/Metropolis-Medium.eot?#iefix?v=5832569d99') format('embedded-opentype'),  url('/blog/assets/fonts/Metropolis-Medium.otf?v=5832569d99')  format('opentype'),
+	 url('/blog/assets/fonts/Metropolis-Medium.woff?v=5832569d99') format('woff'), url('/blog/assets/fonts/Metropolis-Medium.ttf?v=5832569d99')  format('truetype'), url('/blog/assets/fonts/Metropolis-Medium.svg#Metropolis-Medium?v=5832569d99') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+@font-face {
+	 font-family: 'Metropolis-SemiBold';
+	 src: url('/blog/assets/fonts/Metropolis-SemiBold.eot?#iefix?v=5832569d99') format('embedded-opentype'),  url('/blog/assets/fonts/Metropolis-SemiBold.otf?v=5832569d99')  format('opentype'),
+	 url('/blog/assets/fonts/Metropolis-SemiBold.woff?v=5832569d99') format('woff'), url('/blog/assets/fonts/Metropolis-SemiBold.ttf?v=5832569d99')  format('truetype'), url('/blog/assets/fonts/Metropolis-SemiBold.svg#Metropolis-SemiBold?v=5832569d99') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+@font-face {
+	 font-family: 'Lora-Regular';
+	 src: url('/blog/assets/fonts/Lora-Regular.eot?#iefix?v=5832569d99') format('embedded-opentype'),  url('/blog/assets/fonts/Lora-Regular.woff?v=5832569d99') format('woff'), url('/blog/assets/fonts/Lora-Regular.ttf?v=5832569d99')  format('truetype'), url('/blog/assets/fonts/Lora-Regular.svg#Lora-Regular?v=5832569d99') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+</style>
+<link href="/blog/assets/css/bootstrap.min.css?v=5832569d99" rel="stylesheet" type="text/css">
+
+
+<style>
+@charset "UTF-8";html{-webkit-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:'Metropolis-Medium', sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}blockquote,body,dd,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,legend,ol,p,pre,ul{margin:0;padding:0}li>ol,li>ul{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}address,blockquote,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,table,ul{margin-bottom:16px}dd,ol,ul{margin-left:16px}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.icon{position:relative;display:inline-block;width:25px;height:25px;overflow:hidden;fill:currentColor}.icon__cnt{width:100%;height:100%;background:inherit;fill:inherit;pointer-events:none;-webkit-transform:translateX(0);transform:translateX(0);-ms-transform:translate(.5px,-.3px)}.icon--m{width:50px;height:50px}.icon--l{width:100px;height:100px}.icon--xl{width:150px;height:150px}.icon--xxl{width:200px;height:200px}.icon__spinner{position:absolute;top:0;left:0;width:100%;height:100%}.icon--ei-spinner .icon__spinner,.icon--ei-spinner-2 .icon__spinner{-webkit-animation:spin 1s steps(12) infinite;animation:spin 1s steps(12) infinite}.icon--ei-spinner-3 .icon__spinner{-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}.icon--ei-sc-facebook{fill:#3b5998}.icon--ei-sc-github{fill:#333}.icon--ei-sc-google-plus{fill:#dd4b39}.icon--ei-sc-instagram{fill:#3f729b}.icon--ei-sc-linkedin{fill:#0976b4}.icon--ei-sc-odnoklassniki{fill:#ed812b}.icon--ei-sc-skype{fill:#00aff0}.icon--ei-sc-soundcloud{fill:#f80}.icon--ei-sc-tumblr{fill:#35465c}.icon--ei-sc-twitter{fill:#55acee}.icon--ei-sc-vimeo{fill:#1ab7ea}.icon--ei-sc-vk{fill:#45668e}.icon--ei-sc-youtube{fill:#e52d27}.icon--ei-sc-pinterest{fill:#bd081c}.icon--ei-sc-telegram{fill:#08c}code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}body{color:#222;font-size:16px;font-family:'Metropolis-Medium', sans-serif;font-weight:300;line-height:32px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}::-moz-selection{color:#fff;background:#207cdf}::selection{color:#fff;background:#207cdf}@font-face{font-family:Muli;font-style:normal;font-weight:400;src:local("Muli"),url(https://fonts.gstatic.com/s/muli/v9/zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:"Libre Baskerville";font-style:normal;font-weight:400;src:local("Libre Baskerville"),local("LibreBaskerville-Regular"),url(https://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK56jerHLVJWaC-9Ja-RK4Ug.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:"Libre Baskerville";font-style:normal;font-weight:400;src:local("Libre Baskerville"),local("LibreBaskerville-Regular"),url(https://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK8j0T1k_tV7QYhgnOhA2764.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}a{text-decoration:none;color:#222;-webkit-transition:.5s;transition:.5s}a:active,a:focus,a:hover{text-decoration:underline}img{display:block;max-width:100%;font-style:italic}hr{height:1px;margin:32px 0;border:0;background-color:#ecf0f1}h1,h2,h3,h4,h5,h6{font-weight:inherit;line-height:initial}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}b,strong{font-weight:700}blockquote{padding-left:16px;border-left:3px solid #222;font-style:italic}pre{padding:32px}code,pre{overflow:auto;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;font-family:Courier,monospace;font-size:16px;background-color:#ecf0f1}p code{padding:3px 6px}pre[class*=language-]{padding:32px;margin:16px 0}code[class*=language-],pre[class*=language-]{white-space:pre-wrap;word-break:break-all;line-height:inherit}input[type=color],input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],select,textarea{width:100%;padding:16px;border:1px solid #ecf0f1;border-radius:0;outline:0;background-color:#fff;font-size:14px;font-family:Muli,sans-serif;-webkit-transition:.5s;transition:.5s}input[type=color]:focus,input[type=date]:focus,input[type=datetime-local]:focus,input[type=datetime]:focus,input[type=email]:focus,input[type=month]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=time]:focus,input[type=url]:focus,input[type=week]:focus,select:focus,textarea:focus{border-color:#222}table{width:100%;max-width:100%}table td,table th{padding:16px;text-align:left;vertical-align:top;border-top:1px solid #ecf0f1;font-weight:400}table thead th{font-weight:700;text-transform:uppercase;font-size:14px;vertical-align:bottom;border-bottom:2px solid #ecf0f1}table tbody+tbody{border-top:2px solid #ecf0f1}.responsive-table{display:block;width:100%;overflow-x:auto}.o-grid{margin:0 auto;max-width:1200px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.o-grid:after{content:"";display:table;clear:both}.o-grid .o-grid{margin-right:-16px;margin-left:-16px;padding:0}.o-grid--full{max-width:100vw}.o-grid__col{width:100%;padding-right:16px;padding-left:16px}.o-grid__col--1-4-s{width:25%}.o-grid__col--1-3-s{width:33.3333333333%}.o-grid__col--2-4-s{width:50%}.o-grid__col--3-4-s{width:75%}.o-grid__col--4-4-s{width:100%}@media (min-width:40em){.o-grid__col--1-4-m{width:25%}.o-grid__col--1-3-m{width:33.3333333333%}.o-grid__col--2-4-m{width:50%}.o-grid__col--3-4-m{width:75%}}@media (min-width:64em){.o-grid__col--1-4-l{width:25%}.o-grid__col--1-3-l{width:33.3333333333%}.o-grid__col--2-4-l{width:50%}.o-grid__col--3-4-l{width:75%}}.o-grid__col--full{width:100%}.o-grid__col--center{margin:0 auto}.o-grid__col--end{margin-left:auto}.o-wrapper{padding:56px 0 32px;}.c-off-canvas-container{display:-webkit-box;display:-ms-flexbox;display:flex;min-height:100vh;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.c-off-canvas-container .o-wrapper{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}.o-plain-list{margin:0;padding:0;list-style:none}.c-header__inner{padding:16px 0;border-bottom:1px solid #ecf0f1}.c-header__icon{vertical-align:middle}.c-logo__link{font-size:19px}.c-logo__link:active,.c-logo__link:focus,.c-logo__link:hover{color:#207cdf;text-decoration:none}.c-logo__img{margin:0 auto;max-height:32px}.c-nav__item{font-size:14px;font-family:Muli,sans-serif}.c-nav__item:not(:last-child){margin-bottom:4px}.c-nav__link{display:block}.c-nav__link--current{color:#207cdf}.c-nav__link:active,.c-nav__link:focus,.c-nav__link:hover{color:#207cdf;text-decoration:none}.c-blog-desc{padding-top:16px;margin-top:16px;border-top:1px solid #ecf0f1;color:#5d738d;font-size:14px;font-family:Muli,sans-serif;line-height:22px;word-wrap:break-word}.c-search{position:fixed;top:0;right:0;bottom:0;left:0;padding-top:80px;background:#fff;z-index:-1;opacity:0;-webkit-transform:scale(.96);transform:scale(.96);-webkit-transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end,-webkit-transform 250ms cubic-bezier(.694,0,.335,1);transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end,-webkit-transform 250ms cubic-bezier(.694,0,.335,1);transition:transform 250ms cubic-bezier(.694,0,.335,1),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end;transition:transform 250ms cubic-bezier(.694,0,.335,1),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end,-webkit-transform 250ms cubic-bezier(.694,0,.335,1)}@media (min-width:40em){.c-search{padding-top:64px}}.c-search.is-active{z-index:10;opacity:1;-webkit-transform:scale(1);transform:scale(1);-webkit-transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start,-webkit-transform 250ms cubic-bezier(.8,0,.55,.94);transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start,-webkit-transform 250ms cubic-bezier(.8,0,.55,.94);transition:transform 250ms cubic-bezier(.8,0,.55,.94),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start;transition:transform 250ms cubic-bezier(.8,0,.55,.94),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start,-webkit-transform 250ms cubic-bezier(.8,0,.55,.94)}.c-search__form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;margin-left:16px;padding-right:16px}.c-search__icon{position:absolute;left:16px;fill:#5d738d;width:32px;height:32px}.c-search__input[type=search]{width:100%;outline:0;margin-bottom:0;padding-left:56px;font-weight:300;font-size:19px;border:0;border-radius:4px;background-color:#ecf0f1}.c-search__input[type=search]::-webkit-input-placeholder{opacity:1;color:#5d738d}.c-search__input[type=search]:-ms-input-placeholder{opacity:1;color:#5d738d}.c-search__input[type=search]::-ms-input-placeholder{opacity:1;color:#5d738d}.c-search__input[type=search]::placeholder{opacity:1;color:#5d738d}@media (min-width:40em){.c-search__input[type=search]{font-size:24px}}.c-search__close{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute;top:16px;right:32px;width:48px;height:48px;cursor:pointer;border-radius:100%;background-color:#ecf0f1}@media (min-width:40em){.c-search__close{top:32px}}.c-search__close .icon{fill:#5d738d;-webkit-transition:.5s;transition:.5s}.c-search__close:hover .icon{fill:#222;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.c-search-results{display:none;height:calc(100vh - 168px);overflow:auto;white-space:normal;margin-top:16px;margin-left:16px;padding-right:16px;counter-reset:search}@media (min-width:40em){.c-search-results{height:calc(100vh - 160px)}}.c-search-result{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;line-height:1;padding:16px 16px 16px 32px;background-color:#ecf0f1;border-radius:4px}.c-search-result:not(:last-child){margin-bottom:16px}.c-search-result:active,.c-search-result:focus,.c-search-result:hover{color:#207cdf;text-decoration:none}.c-search-result:before{counter-increment:search;content:counter(search) ". ";position:relative;left:-16px;font-size:19px;font-style:italic;font-family:"Libre Baskerville",serif;color:#207cdf}.c-search-result__media{margin-left:16px;background-color:#ecf0f1}.c-search-result__content{-webkit-box-flex:1;-ms-flex:1;flex:1}.c-search-result__image{display:block;width:64px;height:48px;background-repeat:no-repeat;background-position:center;background-size:cover;background-color:#fff}.c-search-result__title{margin-bottom:8px;font-size:14px}.c-search-result__date{line-height:1;font-size:12px;color:#5d738d;text-transform:uppercase;font-family:Muli,sans-serif;letter-spacing:1px}.c-off-canvas-toggle{position:relative;z-index:10;height:19px;width:25px;cursor:pointer;display:inline-block;vertical-align:middle}.c-off-canvas-toggle__icon{position:absolute;left:0;height:1px;width:25px;background:#222228;cursor:pointer}.c-off-canvas-toggle__icon:after,.c-off-canvas-toggle__icon:before{content:"";display:block;height:100%;background-color:inherit;-webkit-transition:.5s;transition:.5s}.c-off-canvas-toggle__icon:before{-webkit-transform:translateY(16px);transform:translateY(16px)}.c-off-canvas-toggle__icon:after{-webkit-transform:translateY(7px);transform:translateY(7px)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon{height:2px;background-color:transparent}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after,.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before{position:relative;visibility:visible;background:#222228}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before{top:11px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{top:9px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.c-off-canvas-toggle--close{margin-bottom:16px}body,html{overflow-x:hidden}.c-off-canvas-content{position:fixed;top:0;left:0;z-index:10;width:300px;height:100%;padding:24px 32px;-webkit-transform:translate3d(-300px,0,0);transform:translate3d(-300px,0,0)}@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){.c-off-canvas-content{background-color:#fff}.c-off-canvas-content.is-active{left:300px}}.c-off-canvas-container{-webkit-perspective:1000;-webkit-transition:-webkit-transform .5s cubic-bezier(.16,.68,.43,.99);transition:-webkit-transform .5s cubic-bezier(.16,.68,.43,.99);transition:transform .5s cubic-bezier(.16,.68,.43,.99);transition:transform .5s cubic-bezier(.16,.68,.43,.99),-webkit-transform .5s cubic-bezier(.16,.68,.43,.99)}.c-off-canvas-container.is-active{-webkit-transform:translate3d(300px,0,0);transform:translate3d(300px,0,0)}.c-off-canvas-container.is-active:after{position:fixed;top:0;right:0;bottom:0;left:0;content:"";background-color:rgba(0,0,0,.5)}.c-off-canvas-container.is-active .c-off-canvas-container__close{position:fixed;top:0;left:0;right:0;bottom:0;z-index:200}.c-tag{text-align:center;padding-bottom:32px;margin-bottom:32px;border-bottom:1px solid #ecf0f1}.c-tag__name{margin-bottom:0;font-size:28px;line-height:50px}.c-tag__description{margin-top:8px;margin-bottom:0;font-size:16px;font-family:Muli,sans-serif;line-height:25px}.c-tags a{display:inline-block;padding:4px 16px;margin:0 8px 4px 0;font-size:12px;font-family:Muli,sans-serif;line-height:22px;background-color:#fafafa}.c-tags a:active,.c-tags a:focus,.c-tags a:hover{text-decoration:none;background-color:#ecf0f1}@media (max-width:39.99em){.c-tags{margin-bottom:22px}}.c-tag-card{position:relative;margin-bottom:32px;background-color:#ecf0f1}.c-tag-card__image{display:block;background-position:50%;background-repeat:no-repeat;background-size:cover;text-decoration:none;-webkit-transition:opacity .5s ease-in-out;transition:opacity .5s ease-in-out}.c-tag-card__image.js-fadein{opacity:0}.c-tag-card__image.is-inview{opacity:1}.c-tag-card__image:before{position:absolute;top:0;height:100%;width:100%;content:"";-webkit-transition:.5s;transition:.5s;background:-webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(34,34,40,.4)),color-stop(32%,transparent));background:linear-gradient(0deg,rgba(34,34,40,.4) 0,transparent 32%)}.c-tag-card__image:after{display:block;content:"";width:100%;padding-bottom:75%}.c-tag-card__title{position:absolute;bottom:0;left:0;right:0;margin-bottom:0;padding:16px;font-size:19px;font-family:Muli,sans-serif;color:#fff}.c-tag-card:hover .c-tag-card__image:before{background-color:rgba(34,34,40,.1)}.c-btn{display:inline-block;padding:8px 32px;cursor:pointer;-webkit-transition:.5s;transition:.5s;text-align:center;vertical-align:middle;white-space:nowrap;line-height:inherit;border:0;border-radius:0;color:#fff;background-color:#207cdf;font-size:16px;font-family:Muli,sans-serif}.c-btn:active,.c-btn:focus,.c-btn:hover{text-decoration:none;background-color:#238cf6}.c-btn--full{width:100%}.c-btn--small{padding:4px 16px}.c-subscribe{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.c-subscribe .form-group{-webkit-box-flex:8;-ms-flex:8;flex:8}.c-subscribe__btn{position:relative;left:-1px;-webkit-box-flex:2;-ms-flex:2;flex:2}.c-post-card{overflow:hidden;-webkit-transform:translateX(0);transform:translateX(0);margin-bottom:32px;background-color:#ecf0f1;border-bottom:1px solid #ecf0f1}.c-post-card__image-link{display:block;position:relative}.c-post-card__image-link:after{position:absolute;top:0;height:100%;width:100%;content:"";background-color:#222228;-webkit-transition:.5s;transition:.5s;opacity:0}@media (min-width:40em){.c-post-card__image{opacity:0;-webkit-transition:opacity .5s ease-in-out;transition:opacity .5s ease-in-out}.c-post-card__image.is-inview{opacity:1}}@media screen and (min-width:40em) and (-webkit-min-device-pixel-ratio:0){.c-post-card__image{opacity:1}}.c-post-card__info{display:block;padding:16px 0;text-decoration:none;background-color:#fff}.c-post-card__info--no-image{padding-top:0}.c-post-card__info:hover{text-decoration:none;color:#222}.c-post-card__title{margin-bottom:10px;font-size:19px;font-weight:400;line-height:25px;font-family:"Libre Baskerville",serif;-webkit-transition:.5s;transition:.5s}.c-post-card__date{display:block;margin-bottom:8px;font-size:12px;font-family:Muli,sans-serif;line-height:22px;text-transform:uppercase;color:#5d738d}.c-post-card:hover .c-post-card__image-link:after{opacity:.1}.c-post-card:hover .c-post-card__title{color:#207cdf}.c-post-card__excerpt{margin-bottom:10px;word-break:break-word;word-wrap:break-word;font-family:Muli,sans-serif}.c-post-card__featured-icon{position:absolute;bottom:8px;left:8px;fill:#fff}.c-pagination{text-transform:uppercase}.c-pagination:active,.c-pagination:focus,.c-pagination:hover{color:#207cdf;text-decoration:none}.c-pagination__text{position:relative;font-size:14px;font-family:Muli,sans-serif;letter-spacing:2px}.c-pagination__text--prev{left:-16px}.c-pagination__text--next{right:-16px}.c-pagination__icon{vertical-align:text-top}.c-pagination__icon--prev{left:-8px}.c-pagination__icon--next{right:-8px}.kg-bookmark-card{width:100%}a.kg-bookmark-container{display:-webkit-box;display:-ms-flexbox;display:flex;min-height:148px;line-height:1.5;border-bottom:0;color:#222;font-family:Muli,sans-serif;-webkit-transition:.5s;transition:.5s;background-color:#ecf0f1;font-weight:400;text-decoration:none!important}a.kg-bookmark-container:active,a.kg-bookmark-container:focus,a.kg-bookmark-container:hover{color:#5d738d;background-color:#ecf0f1}.kg-card-hascaption a.kg-bookmark-container{border-bottom:1px solid #ecf0f1}.kg-bookmark-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:start;padding:24px}.kg-bookmark-title{font-size:16px;font-weight:400}.kg-bookmark-description{display:-webkit-box;color:#5d738d;font-size:12px;margin-top:8px;max-height:48px;overflow-y:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical}.kg-bookmark-metadata{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:12px;color:#5d738d;margin-top:8px;-ms-flex-wrap:wrap;flex-wrap:wrap}.kg-bookmark-publisher{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:240px}.kg-bookmark-icon{width:24px;height:24px;margin-right:8px}.kg-bookmark-author:after{content:"•";margin:0 8px}.kg-bookmark-thumbnail{position:relative;min-width:33%;max-height:100%}.kg-bookmark-thumbnail img{position:absolute;top:0;left:0;width:100%;height:100%;-o-object-fit:cover;object-fit:cover}@media (max-width:39.99em){.kg-bookmark-container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.kg-bookmark-thumbnail{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;width:100%;min-height:160px}.kg-bookmark-content{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}}.c-post{margin:0 auto;max-width:800px}.c-post__title{font-size:24px}@media (min-width:40em){.c-post__title{font-size:28px;line-height:50px}}.c-post__date{position:relative;padding-top:16px;display:block;text-align:center;margin-bottom:16px;font-size:16px;font-family:Muli,sans-serif;line-height:22px;text-transform:uppercase;color:#8F8F9F;font-weight: 600;}.c-post__image{margin:0 auto 41px}.c-share{display:-webkit-box;display:-ms-flexbox;display:flex;border-radius:3px;border:1px solid #ecf0f1;line-height:22px}.c-share__item{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center;border-right:1px solid #ecf0f1}.c-share__item:last-child{border-right:0}.c-share__link{display:block;padding:4px}/*.c-share__link:hover{background-color:#fafafa}.c-share__link:hover .c-share__icon--twitter{fill:#55acee}.c-share__link:hover .c-share__icon--facebook{fill:#3b5998}.c-share__link:hover */.c-share__icon--pinterest{fill:#bd081c}.c-share__icon{fill:#fff;vertical-align:middle;-webkit-transition:.5s;transition:.5s}.c-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.c-content a:not(.c-btn){text-decoration:underline;-webkit-text-decoration-skip:ink;text-decoration-skip:ink}.c-content a:not(.c-btn):active,.c-content a:not(.c-btn):focus,.c-content a:not(.c-btn):hover{color:#207cdf}.c-content h1,.c-content h2,.c-content h3,.c-content h4,.c-content h5,.c-content h6{font-weight:700;font-family:Muli,sans-serif}.c-content .cp_embed_wrapper,.c-content .footnotes,.c-content address,.c-content blockquote,.c-content dl,.c-content fieldset,.c-content form,.c-content h1,.c-content h2,.c-content h3,.c-content h4,.c-content h5,.c-content h6,.c-content hr,.c-content ol,.c-content p,.c-content pre,.c-content table,.c-content ul{min-width:100%}.kg-embed-card{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-width:100%}.kg-card figcaption{width:100%;text-align:center;color:#5d738d;font-size:14px;font-family:Muli,sans-serif;font-weight:400;line-height:22px;margin-top:10px;padding-left:10px;padding-right:10px}.kg-width-full .kg-image{max-width:100vw}@media (min-width:40em){.kg-width-wide .kg-image{max-width:75vw}}@media (min-width:64em){.kg-width-wide .kg-image{max-width:65vw}}.kg-gallery-container{width:100vw;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media (min-width:40em){.kg-gallery-container{max-width:75vw}}@media (min-width:64em){.kg-gallery-container{max-width:65vw}}.kg-gallery-row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.kg-gallery-image img{display:block;margin:0;width:100%;height:100%}.kg-gallery-row:not(:first-of-type){margin:16px 0 0 0}.kg-gallery-image:not(:first-of-type){margin:0 0 0 16px}.c-author{padding-bottom:32px;margin-bottom:32px;border-bottom:1px solid #ecf0f1}@media (min-width:64em){.c-author{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}.c-author__img{float:left;border-radius:100%;margin-right:16px;height:64px;width:64px}@media (min-width:64em){.c-author__img{margin-right:32px;height:128px;width:128px}}@media (min-width:40em){.c-author__body{overflow:hidden}}.c-author__name{margin-bottom:8px;font-family:Muli,sans-serif}.c-author__bio{margin-bottom:8px;font-size:16px;font-family:Muli,sans-serif;line-height:25px}.c-author-links{font-family:Muli,sans-serif}.c-author-links__item{display:inline-block;font-size:16px;line-height:25px}.c-author-links__icon{vertical-align:middle;fill:#222;-webkit-transition:.5s;transition:.5s}.c-author-links__icon:active,.c-author-links__icon:focus,.c-author-links__icon:hover{fill:#207cdf}.fluid-width-video-wrapper,.twitter-tweet{margin-bottom:16px!important}.c-social-nav{line-height:1;margin-bottom:20px}.c-social-nav__item{display:inline-block}.c-social-nav__icon{fill:#222;vertical-align:middle}.c-social-nav__icon:active,.c-social-nav__icon:focus,.c-social-nav__icon:hover{fill:#207cdf}.c-footer{padding:32px 0;background-color:#fafafa}.c-footer__copy{line-height:1}.u-hidden{display:none}.u-hidden-visually{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.u-font-serif{font-family:"Libre Baskerville",serif}.u-font-sans-serif{font-family:Muli,sans-serif}.u-font-medium{font-size:16px;line-height:25px}.u-font-small{font-size:14px;line-height:22px}.u-font-tiny{font-size:12px;line-height:19px}.u-text-left{text-align:left}.u-text-right{text-align:right}.u-text-center{text-align:center}.u-text-justify{text-align:justify}.u-inline{display:inline}.u-block{display:block}.u-inline-block{display:inline-block}.u-left{float:left}.u-right{float:right}.u-clearfix:after{content:"";display:table;clear:both}.c-content ul li {line-height: 2;}
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Muli:600,700&display=swap');
+.btn, .btn:hover{
+	text-decoration: none;
+}
+.getin-btn {
+	background: #fff;
+	padding: 10px;
+	display: block;
+	width: 270px;
+	text-align: center;
+	color: #412BBC;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 10px;
+	margin-top: 6px;
+}
+
+.c-header {
+	background: #2a205b;
+}
+.c-header__inner {
+   border-bottom: 0px solid
+}
+.c-logo__imgx {
+	max-height: 35px;
+}
+.c-navx li a {
+	color: #fff;
+	padding: 0px 40px 0px 40px;
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+}
+.c-navx li {
+	display: inline-block;
+}
+.home-template .c-nav__link--current:not(:hover), .c-navx li a.c-nav__link--current {
+   color: #fff;
+}
+.c-navx:hover li a {
+	color: #a9a5bd;
+}
+.c-navx:hover li a:hover {
+	color: #fff;
+}
+.c-navx li:last-child a {
+	padding-right: 0;
+}
+.hero-content {
+	padding: 60px 0;
+	background: #533DCE;
+	background-image: url(https://infatica.io/blog/assets/img/bg-Lines.png);
+	background-size: cover;
+}
+.hero-inner {
+	width: 70%;
+	margin: 0px auto;
+}
+.hero-content h4 {
+	color: #34CCA9;
+	margin-top: 25px;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.hero-content h2 {
+	font-size: 48px;
+	font-weight: 600;
+	margin: 0;
+}
+.get-in-touch {
+	background: #fff url(https://infatica.io/blog/assets/img/get-in-t-bg.png) left top no-repeat;
+	background-size: cover;
+	padding: 190px 0 125px;
+}
+.call-to-action h2 {
+	font-size: 60px;
+	font-weight: 700;
+}
+.call-to-action div {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 18px;
+}
+
+.footer-1, .footer-2, .footer-3 {
+	padding: 40px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-1 {
+	padding-top: 0;
+}
+.footer-3 {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.footer-contact {
+	width: 100%;
+	display: block;
+	margin: 0px auto;
+	margin-top: 25px;
+	font-family: 'Muli', sans-serif;
+}
+.footer-contact > div, .footer-contact > ul {
+	width: 50%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	overflow: hidden;
+}
+.contact-link .btn {
+	float: right;
+	margin-right: 40px;
+}
+.contacts-info::before {
+	content: " ";
+	background: url(https://infatica.io/templates/digit-whm-white/images/sprite-content-icons.svg) 0 -650px no-repeat;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	opacity: 0.3;
+}
+ul.contacts-info {
+	list-style: none;
+	color: rgba(255, 255, 255, 0.6);
+	margin-top: 6px;
+}
+.contacts-info li {
+	line-height: 23px;
+	font-weight: 700;
+}
+.contacts-info li a {
+	color: #fff;
+}
+
+.footer-area {
+	background: #0c0532 url(https://infatica.io/blog/assets/img/footer-bg-line.svg) 0 bottom no-repeat;
+	padding: 70px 0;
+	color: #8F8F9F;
+}
+footer .c-logo__imgx {
+	max-height: 50px;
+}
+.abtn {
+	margin: 0px auto;
+	background: #291a7a;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+	padding: 20px 25px;
+	border-radius: 6px;
+	margin-right: 10%;
+}
+.free-trial h4 {
+	font-size: 12px;
+	font-weight: 700;
+	display: block;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.footer-2 .contacts-info li {
+	font-weight: 600;
+	line-height: 24px;
+	font-size: 14px;
+}
+.footer-2 .contacts-info {
+	margin: 0;
+}
+.bold-text {
+	font-weight: 700;
+	font-size: 16px;
+}
+.footer-social-icon {
+	margin-top: 12px;
+}
+.footer-social-icon .c-social-nav__item a {
+	background: #291a7a;
+	border-radius: 52px;
+	padding: 10px 8px;
+	margin-left: 5px;
+}
+.footer-social-icon .c-social-nav__item a div {
+	fill: #fff;
+}
+.footer-3 p {
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.footer-3 h4 {
+	margin-bottom: 0;
+}
+.footer-3 h4 a {
+	color: #8F8F9F;
+	font-size: 12px;
+	font-weight: 700;
+	margin-left: 20px;
+	line-height: 35px;
+}
+.c-footer__copy a {
+	color: #fff;
+}
+@media only screen and (max-width: 768px) {
+
+   .c-logo-grid, .c-nav-grid {
+   	display: block;
+   	width: 100%;
+   }
+   .c-logo__imgx, .c-navx {
+   	margin: 0px auto;
+   	text-align: center;
+   }
+	.footer-1 .c-logo__imgx {
+		margin: 0 0;
+	}
+   .c-navx li a {
+	   padding: 0 15px 0 15px;
+   }
+
+	.call-to-action div {
+		margin: 0px 10px;
+	}
+	.contact-link .getin-btn {
+		width: 180px;
+		font-size: 14px;
+		padding: 8px;
+	}
+	.contacts-info li {
+		font-size: 14px;
+	}
+	.contacts-info {
+		margin-top: 0;
+	}
+	.footer-2 .contacts-info li {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.footer-social-icon .c-social-nav__item a {
+		padding: 6px 4px;
+		margin-left: 2px;
+	}
+	.footer-3 p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.footer-3 div:last-child h4 {
+		height: 20px;
+		margin-top: -9px;
+	}
+
+
+
+}
+</style>
+<link href="/blog/assets/css/slicknav.css?v=5832569d99" rel="stylesheet" type="text/css">
+<link href="/blog/assets/css/style.css?v=5832569d99" rel="stylesheet" type="text/css">
+<link href="/blog/assets/css/responsive-custom.css?v=5832569d99" rel="stylesheet" type="text/css">
+   <script>
+       var pagination_next_page_number       = '',
+           pagination_available_pages_number = '';
+   </script>
+   
+   <script>
+    var max_pages = parseInt('');
+   </script>
+
+  <meta name="generator" content="Ghost 3.12" />
+    <link rel="alternate" type="application/rss+xml" title="Infatica blog - learn how to use the Internet without any limits" href="https://infatica.io/blog/rss/" />
+    <!-- Google Tag Manager -->
+        <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5HWW3HN');</script>
+        <!-- End Google Tag Manager -->
+
+ <link rel="shortcut icon" type="image/icon" href="https://infatica.io/favicon.ico"/>
+</head>
+<body class=''>
+
+    <header class="header white-header">
+      <!-- No background -->
+
+    <div id="slick-nav-wrap"></div>
+
+    <!------------------------------------->
+
+    <!-------------------------------------->
+    <div class="container-big container">
+        <div class="row position-relative align-items-center" id="hero-nav-wrapper">
+
+                <a href="https://infatica.io/blog" class="logo">
+                    <!--<img src="/blog/assets/images/Logo-white.svg?v=5832569d99" alt='Infatica blog - learn how to use the Internet without any limits' class="img-fluid white-logo">-->
+                  <img src="/blog/assets/images/Logo-black.svg?v=5832569d99" alt='Infatica blog - learn how to use the Internet without any limits' class="img-fluid dark-logo">
+                    <!--<img class='img-fluid dark-logo' src='/blog/content/images/2020/04/Logo-black.svg' alt='Infatica blog - learn how to use the Internet without any limits'>-->
+                </a>
+
+            <ul class="nav ml-auto align-items-center" id="tgl-menu">
+                <li class="sub-items-wrap after-block"><span>Products &amp; Pricing</span>
+                    <ul class="menu triangle">
+                        <li class="m-0 p-0">
+                            <h6 class="menu__title position-relative gray-line text-uppercase">
+                                Proxy network
+                            </h6>
+                        </li>
+                        <li class="menu__item row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/residential-proxies/" class="menu__link border-0"></a>
+                            <div class="col-xl-2 col-2 wrap-menu__icon pr-0">
+                                <img class="menu__icon img-fluid" src="/blog/assets/images/blog/menu-1.svg?v=5832569d99" alt="">
+                            </div>
+                            <div class="col-xl-10 col-10 pr-0">
+                                <div class="price-wrap">
+                                    <h6 class="menu__item-title">Residential Proxies</h6>
+                                    <mark class="price-item">from $2 per GB</mark>
+                                </div>
+                                <p class="menu__text mb-0">Discover reliable anonymity of authentic IP addresses without boundaries</p>
+                            </div>
+                        </li>
+                        <li class="menu__item row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/datacenter-proxies/" class="menu__link border-0"></a>
+                            <div class="col-xl-2 col-2 wrap-menu__icon pr-0">
+                                <img class="menu__icon img-fluid" src="/blog/assets/images/blog/menu-3.svg?v=5832569d99" alt="">
+                            </div>
+                            <div class="col-xl-10 col-10 pr-0">
+                                <div class="price-wrap">
+                                    <h6 class="menu__item-title">Data Center Proxies</h6>
+                                    <mark class="price-item">from $1 per IP</mark>
+                                </div>
+                                <p class="menu__text mb-0">Enjoy the high connection speed and anonymity at affordable prices</p>
+                            </div>
+                        </li>
+                        <!--<li class="menu__item row mx-0 position-relative align-items-center">
+    <a href="/mobile-proxies/" class="menu__link border-0"></a>
+    <div class="col-xl-2 col-2 wrap-menu__icon pr-0">
+        <img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-2.svg" alt="">
+    </div>
+    <div class="col-xl-10 col-10 pr-0">
+        <div class="price-wrap">
+            <h6 class="menu__item-title">Mobile proxy</h6>
+            <mark class="price-item">from $8 for IP</mark>
+        </div>
+
+        <p class="menu__text mb-0">Surface the freshest and most relevant content, and ultimately.</p>
+    </div>
+</li>-->
+                    </ul>
+                </li>
+                <li class="sub-items-wrap after-block">
+                    <span>Client Profiles</span>
+                    <ul class="menu mx-0 triangle row menu_max-w">
+
+                        <li class="col-12 px-0">
+                            <h6 class="menu__title position-relative gray-line text-uppercase">
+                                Client Profiles
+                            </h6>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxy-for-price-aggregators/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#412BBC"></circle>
+                                    <path d="M18.6666 13.3333L16.6666 15.3333" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M16.6666 11.3333L18.6666 13.3333" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M18.6667 13.3333H16C13.7907 13.3333 12 15.124 12 17.3333" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M29.3334 34.6667L31.3334 32.6667" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M31.3334 36.6667L29.3334 34.6667" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M29.3334 34.6667H32C34.2094 34.6667 36 32.876 36 30.6667" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M21.5374 16.204C21.7267 15.9547 21.9214 15.708 22.148 15.4813C25 12.6293 29.6667 12.6293 32.5187 15.4813C35.3707 18.3333 35.3707 23 32.5187 25.852C32.2907 26.08 32.0414 26.2707 31.7894 26.456" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M20.6667 34.6667C24.7001 34.6667 28.0014 31.3667 28.0014 27.3347C28.0014 23.3027 24.7001 20 20.6667 20C16.6334 20 13.3347 23.3 13.3347 27.3347C13.3347 28.98 13.8907 30.4973 14.8134 31.724C16.1547 33.5053 18.2801 34.6667 20.6667 34.6667Z" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M20.6666 24.3347V23.668" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M20.6666 30.3347V31.0014" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M18.9306 29.6187C19.1893 30.0427 19.632 30.336 20.1666 30.336H20.6666H21.2626C22.0386 30.336 22.6666 29.7067 22.6666 28.932C22.6666 28.288 22.228 27.7267 21.604 27.5693L19.7293 27.0987C19.1053 26.9427 18.6666 26.3813 18.6666 25.7373C18.6666 24.9613 19.296 24.3333 20.0706 24.3333H20.6666H21.1666C21.7 24.3333 22.1413 24.6253 22.4 25.048" stroke="#412BBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Price Aggregators</h6>
+                                <p class="menu__text mb-0">
+                                    Always get real prices without any limits and delays
+                                </p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxy-for-brand-protection/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#CF2F2F"></circle>
+                                    <path d="M34.892 22.6334C34.892 28.816 30.2454 34.5974 24 36C17.7547 34.596 13.108 28.816 13.108 22.6334V17.776C13.108 16.6707 13.776 15.6734 14.8 15.256L21.608 12.4707C23.1414 11.8427 24.8587 11.8427 26.392 12.4707L33.2 15.256C34.224 15.676 34.892 16.6707 34.892 17.776V22.6334V22.6334Z" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M20 23V26.6667" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M24 18.6667V26.6667" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M28 21.3334V26.6667" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Brand Protection</h6>
+                                <p class="menu__text mb-0">
+                                    Quickly detect malefactors who try to harm your brand
+                                </p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxies-for-cyber-security/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#218AEF"></circle>
+                                    <path d="M34.1106 13.8747C34.9906 14.7534 34.9906 16.1787 34.1106 17.0574C33.2306 17.936 31.8053 17.936 30.9253 17.0574C30.0453 16.1787 30.0453 14.7534 30.9253 13.8747C31.8053 12.996 33.2306 12.996 34.1106 13.8747Z" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M13.9079 34.1254C13.0279 33.2467 13.0279 31.8214 13.9079 30.9427C14.7879 30.064 16.2133 30.064 17.0933 30.9427C17.9733 31.8214 17.9733 33.2467 17.0933 34.1254C16.2133 35.004 14.7866 35.004 13.9079 34.1254Z" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M17.2546 33.9307C21.9293 37.1067 28.3453 36.6294 32.4906 32.488C34.836 30.144 36.0093 27.072 36.0093 24C36.0093 23.2907 35.9666 22.5827 35.8413 21.8827" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M12.1773 26.1174C12.0519 25.4174 12.0093 24.7094 12.0093 24C12.0093 20.928 13.1826 17.856 15.5279 15.512C19.6719 11.3707 26.0893 10.8934 30.7639 14.0694" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M24 29C24 29 28 27.0813 28 24.204V20.9053L25.0827 19.856C24.3813 19.604 23.616 19.604 22.9147 19.856L20 20.9053V24.204C20 27.0813 24 29 24 29Z" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Cybersecurity Firms</h6>
+                                <p class="menu__text mb-0">
+                                    Execute realistic threats to test your cyber protection
+                                </p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxies-for-marketing/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.3.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#34CCA9"></circle>
+                                    <path d="M23.3333 26.3494L24.2586 31.904C24.5586 33.708 23.1679 35.3494 21.3399 35.3494C19.8933 35.3494 18.6586 34.304 18.4213 32.876L17.3333 26.3494" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M26.3333 26.3494H15.8333C13.3479 26.3494 11.3333 24.3347 11.3333 21.8494C11.3333 19.364 13.3479 17.3494 15.8333 17.3494H26.3333" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M26.3333 17.3493L33.0013 12.904C33.9986 12.24 35.3333 12.9547 35.3333 14.1533V29.5467C35.3333 30.7453 33.9986 31.4587 33.0013 30.7947L26.3333 26.3493" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M26.3333 26.3467V17.3467" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Marketers</h6>
+                                <p class="menu__text mb-0">Gather valuable data to build better marketing strategies</p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxies-for-corporate-protection/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#CF2F2F"></circle>
+                                    <path d="M34.892 22.6334C34.892 28.816 30.2454 34.5974 24 36C17.7547 34.596 13.108 28.816 13.108 22.6334V17.776C13.108 16.6707 13.776 15.6734 14.8 15.256L21.608 12.4707C23.1414 11.8427 24.8587 11.8427 26.392 12.4707L33.2 15.256C34.224 15.676 34.892 16.6707 34.892 17.776V22.6334V22.6334Z" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M20 23V26.6667" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M24 18.6667V26.6667" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M28 21.3334V26.6667" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Corporate protection</h6>
+                                <p class="menu__text mb-0">How to get better protection for corporate data with proxies</p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxies-for-seo/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#218AEF"></circle>
+                                    <path d="M26.0001 20.6667H22.2041V27.3334H26.0001" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M22.2068 23.9973H25.3508" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M31.1108 27.5C29.8842 27.5 28.8882 26.5054 28.8882 25.2774V22.7214C28.8882 21.4947 29.8828 20.4987 31.1108 20.4987C32.3375 20.4987 33.3335 21.4934 33.3335 22.7214V25.2774C33.3335 26.5054 32.3388 27.5 31.1108 27.5Z" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M14.6667 26.536C14.9534 27.008 15.4454 27.3334 16.0401 27.3334H17.3734C18.1094 27.3334 18.7067 26.736 18.7067 26V25.628C18.7067 25.0547 18.3401 24.544 17.7947 24.3627L15.6187 23.6374C15.0734 23.456 14.7067 22.9467 14.7067 22.372V22C14.7067 21.264 15.3041 20.6667 16.0401 20.6667H17.3734C17.9654 20.6667 18.4561 20.9907 18.7427 21.46" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M37.3334 16.0053V31.9973C37.3334 34.2067 35.5427 35.9973 33.3334 35.9973H14.6667C12.4574 35.9973 10.6667 34.2067 10.6667 31.9973V16.0453C10.6667 13.84 12.4521 12.0507 14.6587 12.0453L33.3254 12.0053C35.5374 12.0013 37.3334 13.7933 37.3334 16.0053V16.0053Z" stroke="#218AEF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">SEO Data Providers</h6>
+                                <p class="menu__text mb-0">Acquire information from different locations to boost the SEO</p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxies-for-uptime-and-performance-services/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#34CCA9"></circle>
+                                    <path d="M16 19H12V15" stroke="#34CCA9" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M17.9561 34.5653C19.1561 35.26 20.4854 35.752 21.9014 36" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M12.6426 28.2307C13.1306 29.5693 13.8372 30.8 14.7359 31.8707" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M26.0986 36C27.5146 35.752 28.8426 35.26 30.044 34.5653" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M33.2639 31.8707C34.1626 30.8 34.8692 29.5693 35.3572 28.2307" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M36 24C36 17.372 30.628 12 24 12C19.16 12 14.9987 14.872 13.1013 19" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M26.8281 21.172C28.3908 22.7347 28.3908 25.2667 26.8281 26.8293C25.2654 28.392 22.7334 28.392 21.1708 26.8293C19.6081 25.2667 19.6081 22.7347 21.1708 21.172C22.7334 19.6093 25.2668 19.6093 26.8281 21.172Z" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M24 20V18.6667" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M24 28V29.3333" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M28 24H29.3333" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M20.0001 24H18.6667" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M26.8267 21.1733L27.7733 20.2267" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M21.1732 26.8267L20.2266 27.7733" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M26.8267 26.8267L27.7733 27.7733" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M21.1732 21.1733L20.2266 20.2267" stroke="#34CCA9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Uptime and Performance Tracking</h6>
+                                <p class="menu__text mb-0">Make sure customers from all locations have a good UX</p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="https://infatica.io/proxies-for-academic-research/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <!--<img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">-->
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.06" cx="24" cy="24" r="24" fill="#CF2F2F"></circle>
+                                    <path d="M26.6667 19.9653C28.5174 21.816 28.5174 24.816 26.6667 26.6667C24.8161 28.5173 21.8161 28.5173 19.9654 26.6667C18.1147 24.816 18.1147 21.816 19.9654 19.9653C21.8161 18.1147 24.8161 18.1147 26.6667 19.9653Z" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M35.2321 14.404V18.2613H31.3748H35.2321" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M36 24C36 30.6267 30.628 36 24 36C17.3733 36 12 30.628 12 24C12 17.3733 17.372 12 24 12C28.5493 12 32.5053 14.532 34.54 18.2613" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M29.3334 29.3333L26.6667 26.6667L29.3334 29.3333Z" stroke="#CF2F2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Academic</h6>
+                                <p class="menu__text mb-0">Perform the quality research having all the data you need</p>
+                            </div>
+                        </li>
+                        <!--<li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="/write-for-donations/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Contribute Your Articles | Infatica</h6>
+                                <p class="menu__text mb-0">Willing to share your knowledge? We will be happy to publish your article! Learn about our requirements and contribute your work to help the tech community.</p>
+                            </div>
+                        </li>
+                        <li class="menu__item menu__item_max-w col-xl-6 col-12  row mx-0 position-relative align-items-center">
+                            <a href="/ethical-code/" class="menu__link border-0"></a>
+                            <div class="col-2 wrap-menu__icon pr-0">
+                                <img class="menu__icon img-fluid" src="/templates/digit-whm-white/images/blog/menu-1.1.svg" alt="">
+                            </div>
+                            <div class="col-10 pr-0">
+                                <h6 class="menu__item-title">Ethical Proxy Network | Infatica</h6>
+                                <p class="menu__text mb-0">Infatica follows a strict ethical code when sourcing IP addresses and providing clients with proxies. Learn how our high standards will protect your privacy online.</p>
+                            </div>
+                        </li>-->
+                    </ul>
+                </li>
+                <li class="sub-items-wrap after-block">
+                    <span>Company</span>
+                    <ul class="triangle">
+                        <li><a href="https://infatica.io/about/">About Us</a></li>
+                        <li><a href="https://infatica.io/faq/">FAQ</a></li>
+                        <li><a href="https://infatica.io/affiliate/">Affiliates Program</a></li>
+                        <li><a href="https://infatica.io/blog/">Blog</a></li>
+                    </ul>
+                </li>
+
+                <li class="log-in-link"><a href="https://infatica.io/clientarea.php">Log In</a></li>
+                <li class="mr-0">
+                    <a href="#" class="top-nav-btn btn white-btn" data-toggle="modal" data-target="#formModal">Start free trial</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- <div class="container container-center siteinfox">
+        <div class="row justify-content-center align-items-start">
+               <h5 class="overhead--main col-12">Infatica blog - learn how to use the Internet without any limits</h5>
+
+            <h1 class="col-12 mb-2 text-white text-center title-main">All About Data and Service</h1>
+            <p class="subtitle--main col-lg-8 col-12 ">Here you will find everything you need to know about proxies, and insightful articles about Access, Scraping, AI/ML Analysis, and more</p>
+        </div>
+    </div>
+
+ -->
+
+</header>
+
+    
+<div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <h2>404</h2>
+      <p>Page Not Found <a href='https://infatica.io/blog' class='u-right u-font-small'>Home Page &#x27A3;</a></p>
+    </div>
+  </div>
+
+  <div class='o-grid js-grid'>
+      
+  <div class="post col-xl-4 col-md-6 col-12 mb-cast-5 " data-prop="Web scraping">
+    <div class="card--blog  h-100">
+
+
+            <div class="img-wrap__card--blog position-relative ">
+                 <img src="https://infatica.io/blog/content/images/2020/10/how-legal-is-web-scraping-and-how-to-avoid-legal-problems.png" class="img-obj" alt="How Legal Is Web Scraping — and How to Avoid Legal Problems?">
+            </div>
+
+
+
+         <div class="card--blog__body ">
+            <div class="card--blog__cat">Web scraping</div>
+            <h5 class="card--blog__title">How Legal Is Web Scraping — and How to Avoid Legal Problems?</h5>
+            <p class="card--blog__text">Web scraping is a powerful tool — and many data owners want to protect their data. They may even pursue legal action, so you should know web scraping limits.</p>
+         </div>
+         <div class="card--blog-footer d-flex align-items-center justify-content-between">
+
+
+            <time datetime="2020-10-16">16 Oct 2020</time>
+         </div>
+         <a href="/blog/web-scraping-legality/" class="link-mask"></a>
+    </div>
+</div>
+
+
+  <div class="post col-xl-4 col-md-6 col-12 mb-cast-5 " data-prop="Proxies and business">
+    <div class="card--blog  h-100">
+
+
+            <div class="img-wrap__card--blog position-relative ">
+                 <img src="https://infatica.io/blog/content/images/2020/06/introduction-to-shared-proxies-pros-cons-and-use-cases.png" class="img-obj" alt="Introduction to Shared Proxies: Their Pros, Cons, and Use Cases">
+            </div>
+
+
+
+         <div class="card--blog__body ">
+            <div class="card--blog__cat">Proxies and business</div>
+            <h5 class="card--blog__title">Introduction to Shared Proxies: Their Pros, Cons, and Use Cases</h5>
+            <p class="card--blog__text">There are two different proxy types: shared and private proxies. In this article, we're exploring shared proxies: what they are and how you can use them.</p>
+         </div>
+         <div class="card--blog-footer d-flex align-items-center justify-content-between">
+
+
+            <time datetime="2020-10-08">08 Oct 2020</time>
+         </div>
+         <a href="/blog/shared-proxies-overview/" class="link-mask"></a>
+    </div>
+</div>
+
+
+  <div class="post col-xl-4 col-md-6 col-12 mb-cast-5 " data-prop="Proxy">
+    <div class="card--blog  h-100">
+
+
+            <div class="img-wrap__card--blog position-relative ">
+                 <img src="https://infatica.io/blog/content/images/2020/09/why-you-cant-access-certain-content-and-how-to-bypass-these-restrictions.png" class="img-obj" alt="Why You Can&#x27;t Access Certain Content — and How to Bypass These Restrictions">
+            </div>
+
+
+
+         <div class="card--blog__body ">
+            <div class="card--blog__cat">Proxy</div>
+            <h5 class="card--blog__title">Why You Can&#x27;t Access Certain Content — and How to Bypass These Restrictions</h5>
+            <p class="card--blog__text">Chances are, your favorite content isn't available in each and every country. In this article, we're taking a closer look at the reasons why this happens.</p>
+         </div>
+         <div class="card--blog-footer d-flex align-items-center justify-content-between">
+
+
+            <time datetime="2020-09-25">25 Sep 2020</time>
+         </div>
+         <a href="/blog/content-restrictions-overview/" class="link-mask"></a>
+    </div>
+</div>
+
+
+  <div class="post col-xl-4 col-md-6 col-12 mb-cast-5 " data-prop="Web scraping">
+    <div class="card--blog  h-100">
+
+
+            <div class="img-wrap__card--blog position-relative ">
+                 <img src="https://infatica.io/blog/content/images/2020/09/proxies-for-twitter-use-cases-and-advice-on-how-to-use-them-effectively.png" class="img-obj" alt="Proxies for Twitter: Use Cases and Advice on How to Use Them Effectively">
+            </div>
+
+
+
+         <div class="card--blog__body ">
+            <div class="card--blog__cat">Web scraping</div>
+            <h5 class="card--blog__title">Proxies for Twitter: Use Cases and Advice on How to Use Them Effectively</h5>
+            <p class="card--blog__text">Twitter is a powerful marketing tool — and proxies enable even more functionality. Let's see how Twitter proxies can be used effectively for marketing purposes.</p>
+         </div>
+         <div class="card--blog-footer d-flex align-items-center justify-content-between">
+
+
+            <time datetime="2020-09-16">16 Sep 2020</time>
+         </div>
+         <a href="/blog/twitter-proxies-overview/" class="link-mask"></a>
+    </div>
+</div>
+
+
+  <div class="post col-xl-4 col-md-6 col-12 mb-cast-5 " data-prop="Web scraping">
+    <div class="card--blog  h-100">
+
+
+            <div class="img-wrap__card--blog position-relative ">
+                 <img src="https://infatica.io/blog/content/images/2020/09/web-crawling-vs-web-scraping-explained.png" class="img-obj" alt="Web Crawling vs. Web Scraping: Understanding the Difference">
+            </div>
+
+
+
+         <div class="card--blog__body ">
+            <div class="card--blog__cat">Web scraping</div>
+            <h5 class="card--blog__title">Web Crawling vs. Web Scraping: Understanding the Difference</h5>
+            <p class="card--blog__text">Web crawling and web scraping are staples of every data-centered business. In this article, we're analyzing, the difference between these two activities.</p>
+         </div>
+         <div class="card--blog-footer d-flex align-items-center justify-content-between">
+
+
+            <time datetime="2020-09-10">10 Sep 2020</time>
+         </div>
+         <a href="/blog/web-crawling-vs-web-scraping/" class="link-mask"></a>
+    </div>
+</div>
+
+
+  <div class="post col-xl-4 col-md-6 col-12 mb-cast-5 " data-prop="Proxies and business">
+    <div class="card--blog  h-100">
+
+
+            <div class="img-wrap__card--blog position-relative ">
+                 <img src="https://infatica.io/blog/content/images/2020/08/how-can-proxies-secure-your-business-network.png" class="img-obj" alt="How Can Proxies Secure Your Business Network?">
+            </div>
+
+
+
+         <div class="card--blog__body ">
+            <div class="card--blog__cat">Proxies and business</div>
+            <h5 class="card--blog__title">How Can Proxies Secure Your Business Network?</h5>
+            <p class="card--blog__text">Information security is especially important for companies — and in a myriad of security measures, proxies are a tool that stands out. Let's see why.</p>
+         </div>
+         <div class="card--blog-footer d-flex align-items-center justify-content-between">
+
+
+            <time datetime="2020-08-31">31 Aug 2020</time>
+         </div>
+         <a href="/blog/business-network-protection/" class="link-mask"></a>
+    </div>
+</div>
+
+  </div>
+
+</div>
+
+    <section class="get-in-touch get-in-touch_new-style-first">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-12 text-xl-left text-center ">
+                <h2 class="text-white get-in-touch__title ">Get In Touch</h2>
+                <div class="h2-after-title white-color get-in-touch__subtitle mt-0 p-0 col-lg-12 col-sm-10 col-12 mx-auto ">Have a question about Infatica? Get in touch with our experts to learn how we can help.
+                </div>
+
+                <ul class="contacts-info get-in-touch__contacts-info before-block ml-lg-0 col-xl-12 col-lg-10 col-md-5 col-8 mx-auto mb-lg-0 mb-4">
+                    <li>Mail us at: <a href="mailto:sales@infatica.io">sales@infatica.io</a></li>
+                    <li>or call: <a href="tel:+12403823360">+1 240 382 3360</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-7 col-12 row mx-0 justify-content-center ">
+                <!-- <form class=" form-col-style  bg-white position-relative ml-auto">
+
+                    <div class="form-row">
+                        <div class="get-in-touch__form-group form-group col-md-6">
+                            <label class="text-uppercase" for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="John Iverson">
+                        </div>
+                        <div class="get-in-touch__form-group form-group col-md-6">
+                            <label class="text-uppercase" for="inputEmail4">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="john.email@gmail.com">
+                        </div>
+                        <div class=" get-in-touch__form-group form-group col-md-12 get-in-touch__form-group-first">
+                            <label class="text-uppercase" for="inputPassword4">YOUR MESSAGE</label>
+                            <textarea type="text" class="form-control form-message" id="inputPassword4" placeholder="Type your message here"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn_form green-btn">Send Request</button>
+                    </div>
+
+                </form> -->
+                <iframe src="https://infatica.io/includes/api/blog/form-en.php" scrolling="no" style="border: none; overflow: hidden; width: 100%; width: 640px; height: 330px; position: relative; border-radius: 8px;"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<footer class="footer footer-main">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-6 col-lg-3 mb-0 mb-3 col-sm-4 px-xxl-0">
+                <div class="footer__menu-block">
+                    <h6 class="color-green-light">PRODUCTS</h6>
+                    <ul class="p-0  mb-0">
+                        <li><a href="https://infatica.io/residential-proxies/">Residential Proxies</a></li>
+                        <li><a href="https://infatica.io/mobile-proxies/">Mobile proxies</a></li>
+                        <li><a href="https://infatica.io/datacenter-proxies/">Data center proxies</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__menu-block">
+                    <h6 class="color-green-light">COMPANY</h6>
+                    <ul class="p-0 mb-0">
+                        <li><a href="https://infatica.io/about/">About Us</a></li>
+                        <li><a href="https://infatica.io/ethical-code/">Ethical Сode</a></li>
+                        <li><a href="https://infatica.io/faq/">FAQ</a></li>
+                        <li><a href="https://infatica.io/blog/">BLOG</a></li>
+                        <li><a href="https://infatica.io/careers/">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3 col-sm-4 mb-0 mb-3 ">
+                <div class="footer__menu-block">
+                    <h6 class="color-green-light">CLIENT PROFILES</h6>
+                    <ul class="p-0 mb-0">
+                        <li><a href="https://infatica.io/proxy-for-price-aggregators/">Price Aggregators </a></li>
+                        <li><a href="https://infatica.io/proxies-for-seo/">SEO Data Providers</a></li>
+                        <li><a href="https://infatica.io/proxy-for-brand-protection/">Brand Protection</a></li>
+                        <li><a href="https://infatica.io/proxies-for-marketing/">Marketers</a></li>
+                        <li><a href="https://infatica.io/proxies-for-academic-research/">Academic research</a></li>
+                        <li><a href="https://infatica.io/proxies-for-uptime-and-performance-services/">Uptime and performance services</a></li>
+                        <li><a href="https://infatica.io/proxies-for-corporate-protection/">Protecting corporate data</a></li>
+                        <li><a href="https://infatica.io/proxies-for-cyber-security/">Cybersecurity Firms</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-2 offset-lg-1 col-sm-4 mb-0 mb-3 ">
+                <div class="footer__menu-block  d-flex flex-column">
+                    <h6 class="color-green-light">PROGRAMS</h6>
+                    <ul class="p-0 mb-0">
+                        <li><a href="https://infatica.io/contribute/">Write for us</a></li>
+                        <li><a href="https://infatica.io/affiliate/">Referral Program</a></li>
+                        <li><a href="https://infatica.io/sdk-monetization/">Infatica SDK</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__menu-block">
+                    <h6 class="color-green-light">legacy info</h6>
+                    <ul class="p-0 mb-0">
+                        <li><a href="https://infatica.io/terms/">Terms and Conditions</a></li>
+                        <!--<li><a href="#">cookie policy</a></li>-->
+                        <li><a href="https://infatica.io/privacy/">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 order-lg-last order-first col-xl-2 mb-0 mb-3 footer-main__col-4 ml-lg-auto px-xxl-0">
+
+                    <a href="https://infatica.io/blog" class="logo d-block footer__logo"><img src="/blog/assets/images/Logo-white.svg?v=5832569d99" alt="" class="img-fluid"></a>
+
+                <div class="position-relative d-flex flex-column mb-10">
+                    <button type="button" class="btn footer__btn blue-btn mr-auto" data-toggle="modal" data-target="#formModal">
+                        Start free trial
+                    </button>
+                    <span class="after-header-form ff-regular w-100 text-lg-left text-center">
+                            Free trial — Cancel any time — No card requied
+                        </span>
+                </div>
+
+                <ul class="nav soc-links mt-auto justify-content-lg-start justify-content-center mb-xl-0 mb-3">
+
+                        <li><a href="https://www.facebook.com/infatica/" target="_blank" rel="nofollow" class="fb-icon"></a></li>
+
+                    <li><a href="" target="_blank" rel="nofollow" class="twt-icon"></a></li>
+                    <li><a href="https://www.linkedin.com/company/infatica" target="_blank" rel="nofollow" class="lkdn-icon"></a></li>
+                    <!--<li class="soc-links__ver"><img src="/templates/digit-whm-white/images/Finances Online Logo@2x.svg" alt=""></li>-->
+                </ul>
+            </div>
+        </div>
+
+        <div class="row border-top-gray border-bottom-gray firsr-footer-row justify-content-xl-between justify-content-center align-items-center  m-6 py-6">
+            <div class="col-xl-5 col-12 d-flex align-items-center mb-xl-0 mb-3 justify-content-xl-start justify-content-center  px-xxl-0">
+                <ul class="contacts-info before-block mt-0 mb-0">
+                    <li class="text-capitalize ff-regular">Want to say hi?</li>
+                    <li>Mail us at: <a href="mailto:sales@infatica.io">sales@infatica.io</a>
+                        <br> or call:: <a href="tel:+12403823360">+1 240 382 3360</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-7 col-12  d-flex align-items-end justify-content-xl-end justify-content-center px-xxl-0 py-0">
+                <div class="certeficates m-0">
+                    <!--<img src="/templates/digit-whm-white/images/Group157.svg" alt="" class="img-fluid">-->
+                    <a rel="nofollow" target="_blank" href="https://reviews.financesonline.com/p/infatica/">
+                        <img src=" /blog/assets/images/Finances-Online-Logo@2x.svg?v=5832569d99" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row copyright-block">
+            <div class="col-lg-6 col-12 px-xxl-0 text-lg-left text-center"><p>2020 All Rights Reserved. Infatica Pte. Ltd.</p></div>
+            <div class="col-lg-6 col-12 px-xxl-0 justify-content-end text-lg-right text-center"><p>Eu Tong Sen Street, #09-09, The
+                Central,
+                Soho 1, Singapore, 059817</p></div>
+        </div>
+    </div>
+</footer>
+
+
+
+   <script src="/blog/assets/js/jq3.js?v=5832569d99"></script>
+   <script src="/blog/assets/js/poper.js?v=5832569d99"></script>
+   <script src="/blog/assets/js/bootstrap.min.js?v=5832569d99"></script>
+   <script src="/blog/assets/js/jquery.slicknav.js?v=5832569d99"></script>
+   <script src='/blog/assets/js/app.min.js?v=5832569d99'></script>
+<script type="text/javascript" src="/blog/assets/js/infinitescroll.js?v=5832569d99"></script>
+   <script src="/blog/assets/js/main.js?v=5832569d99"></script>
+
+
+  <!---- jquery for showing tab selection --->
+<script>
+$(document).ready(function(){
+  $(".nav li").on('click', function(){
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active')
+  })
+})
+</script>
+
+<!---- code ends for tab selectio --->
+
+</body>
+</html>
